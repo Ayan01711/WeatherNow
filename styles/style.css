@@ -33,6 +33,11 @@ body {
 .app-logo {
   font-size: 22px;
   font-weight: 600;
+  ;
+}
+
+.app-logo a {
+  color: #fff;
 }
 
 /* ===== NAVBAR ===== */
@@ -157,6 +162,11 @@ body {
   background: rgba(0, 0, 0, 0.45);
   font-size: 13px;
   width: 100%;
+}
+
+.app-footer a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .footer-sub {

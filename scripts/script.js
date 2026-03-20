@@ -12,7 +12,7 @@ searchInput.addEventListener("keyup", function (event) {
 function getWeather(city) {
   if (!city) return;
 
-  const apiKey = "acf37fd7e67033fa7c096db3e4d33fb5";
+  const apiKey = "34034341712b1397fa32377d1c918ca7";
   const weatherURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
   fetch(weatherURL)
